@@ -28,3 +28,6 @@ def getFortune(var):
 PID = getPID()
 print(f'SumID card : {sum(PID)}')
 print(f'Prophecy : {getFortune(sum(PID))}')
+
+
+print("Hello, MIT221")
