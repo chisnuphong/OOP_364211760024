@@ -71,5 +71,7 @@ print(l.get_price())
 l.set_price(50000)
 print(l.get_price())
 
+l.__str__()
+
 
 
