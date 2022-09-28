@@ -43,7 +43,7 @@ def input_evcar_data():
     horsepower = int(input("Enter evcar horse power:"))
     batterysize = float(input("Enter evcar battery size:"))
     range = int(input("Enter evcar range: "))
-    price = int(input("Enter evcar price: "))
+    price = float(input("Enter evcar price: "))
 
 
     my_evcar.append(EV_Car(no,brand,model,motor,horsepower,batterysize,range,price))
